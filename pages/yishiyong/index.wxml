@@ -1,0 +1,31 @@
+<!--pages/yishiyong/index.wxml-->
+<view class='viewTop'>
+  <view class='viewTop1'>
+      <view class='viewTop1_1' bindtap='toWeishiyong'>
+        <text>未使用</text>
+      </view>
+      <view class='viewTop1_1' bindtap='toYishiyong'>
+        <text class='text1'>已使用</text>
+      </view>
+      <view class='viewTop1_1' bindtap='toYishixiao'>
+        <text>已失效</text>
+      </view>
+  </view>
+</view>
+<view class='kongbai'></view>
+<view class='content1'>
+  <view class='content1_1'>
+    <view>
+    <text class='content1_1Text1'>50元优惠券</text>
+    </view>
+    <view>
+    <text class='content1_1Text2'>2018.01.01——2018.12.31</text>
+    </view>
+    <view>
+    <text class='content1_1Text3'>满100元可用</text>
+    </view>
+  </view>
+</view>
+
+
+

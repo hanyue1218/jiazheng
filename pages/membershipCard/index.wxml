@@ -1,0 +1,18 @@
+<!--pages/membershipCard/index.wxml-->
+<view class='content1'>会员卡</view>
+<view class='content2'>
+  <view class='content2_1'>
+    <text class='content2Text1'>0000000000</text>
+  </view>
+  <view class='content2_2'>
+    <text class='content2Text2'>余额：100000元</text>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content2_1'>
+    <text class='content2Text1'>0123456789</text>
+  </view>
+  <view class='content2_2'>
+    <text class='content2Text2'>余额：100元</text>
+  </view>
+</view>

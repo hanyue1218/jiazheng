@@ -1,0 +1,14 @@
+<!--pages/dingdan/index.wxml-->
+<view class='viewTop'>
+  <view class='viewTop1'>
+      <view class='viewTop1_1' bindtap='toDaifukuan'>
+        <text>待付款</text>
+      </view>
+      <view class='viewTop1_1' bindtap='toYifukuan'>
+        <text>已付款</text>
+      </view>
+      <view class='viewTop1_1' bindtap='toFinish'>
+        <text>已完成</text>
+      </view>
+  </view>
+</view>

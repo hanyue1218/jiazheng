@@ -1,0 +1,89 @@
+/* pages/huodong/index.wxss */
+page{
+  background-color: #eae6e6;
+}
+.viewTop{
+  text-align: center;
+  margin-top: 30rpx;
+  font-family: '黑体';
+}
+.content1{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 250rpx;
+  background-color: #fff;
+  border-radius: 25rpx;
+  margin-top: 30rpx;
+}
+.content1_1{
+  width: 100%;
+  margin-top: 25rpx;
+  text-align: center;
+  display: inline-block;
+  font-family: '黑体';
+  color: red;
+}
+.content1_2{
+  width: 90%;
+  height: 90rpx;
+  display: inline-block;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+  line-height: 35rpx;
+}
+.content1_3{
+  width: 100%;
+  height: 47rpx;
+  text-align: center;
+  display: inline-block;
+  color: #9d9898;
+  font-size: 25rpx;
+  line-height: 47rpx;
+}
+.viewTop1{
+  text-align: center;
+  margin-top: 70rpx;
+  font-family: '黑体';
+}
+.content2{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 250rpx;
+  background-color: #d9d9d9;
+  background-image: url('http://source.apichiyu.xyz/jiazheng/yiguoqi.png');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: right;
+  background-position-y: center;
+  border-radius: 25rpx;
+  margin-top: 30rpx;
+}
+.content2_1{
+  width: 100%;
+  margin-top: 25rpx;
+  text-align: center;
+  display: inline-block;
+  font-family: '黑体';
+  color: red;
+}
+.content2_2{
+  width: 90%;
+  height: 90rpx;
+  display: inline-block;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+  line-height: 35rpx;
+}
+.content2_3{
+  width: 100%;
+  height: 47rpx;
+  text-align: center;
+  display: inline-block;
+  color: #9d9898;
+  font-size: 25rpx;
+  line-height: 47rpx;
+}

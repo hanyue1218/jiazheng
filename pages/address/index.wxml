@@ -1,0 +1,10 @@
+<!--pages/address/index.wxml-->
+<view class='content1'>
+  <view class='content1Name'>
+    <text class='name'>张三</text>
+    <text class='tel'>182****1216</text>
+  </view>
+  <view class='content1Address'>河北省石家庄市高新技术开发区珠峰大街288号地址地址地址地址地址地址地址地址</view>
+  <view class='content1Bianji' bindtap='toBianjidizhi'>编辑</view>
+</view>
+<view class='content2' bindtap='toZengjiadizhi'><text decode='true'>+&nbsp;新增地址</text></view>

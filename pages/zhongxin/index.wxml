@@ -1,0 +1,64 @@
+<!--pages/zhongxin/index.wxml-->
+<view class='viewTop'>
+  <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='button1'> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+</view>
+<view class='content2' bindtap='toFinish'>
+  <view class='content2_1'>
+    <text>我的订单</text>
+  </view>
+  <view class='content2_2'>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view>
+<view class='content2' bindtap='toWeishiyong'>
+  <view class='content2_1'>
+    <text>我的优惠券</text>
+  </view>
+  <view class='content2_2'>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view>
+<view class='content2' bindtap='toMembershipcard'>
+  <view class='content2_1'>
+    <text>会员卡认证</text>
+  </view>
+  <view class='content2_2'>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view>
+<view class='content2' bindtap='toReceivecoupon'>
+  <view class='content2_1'>
+    <text>领取优惠券</text>
+  </view>
+  <view class='content2_2'>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view>
+<view class='content2' bindtap='toAddress'>
+  <view class='content2_1'>
+    <text>我的地址</text>
+  </view>
+  <view class='content2_2'>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view>
+<view class='content2' bindtap='toHuodong'>
+  <view class='content2_1'>
+    <text>最新活动</text>
+  </view>
+  <view class='content2_2'>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view>
+<view class='jishu'>
+  <text>技术支持：河北驰宇网络科技有限公司</text>
+</view>
+

@@ -1,0 +1,24 @@
+<!--pages/xiangqing/index.wxml-->
+<view class='banner'>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='content1'>
+  <view class='content1Text1'>保洁</view>
+  <view class='content1Text2'>高品质保洁服务，省心舒适畅享生活</view>
+  <view class='content1Text3'>品质保障</view>
+</view>
+<view class='xiangqing'>
+  <image src='/pages/images/xiangqing.png' mode='widthFix'></image>
+</view>
+<view class='kongbai'></view>
+<view class='viewFooter'>
+  <view class='viewFooter1'>加入购物车</view>
+  <view class='viewFooter2' bindtap='toYuyue'>立即预约</view>
+</view>

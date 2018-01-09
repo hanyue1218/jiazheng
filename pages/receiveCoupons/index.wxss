@@ -1,0 +1,54 @@
+/* pages/receiveCoupons/index.wxss */
+page{
+  background-color: #eae6e6;
+}
+.viewTop{
+  text-align: center;
+  margin-top: 30rpx;
+  font-family: '黑体';
+}
+.content1{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 250rpx;
+  background-image: url('http://source.apichiyu.xyz/jiazheng/bg2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 30rpx;
+}
+.content1_1{
+  width: 50%;
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+  display: inline-block;
+  float: left;
+}
+.content1_1Text1{
+  font-family: '黑体';
+  color: red;
+  display: inline-block;
+  margin-left: 85rpx;
+  margin-top: 20rpx;
+}
+.content1_1Text2{
+  font-size: 25rpx;
+  margin-left: 30rpx;
+  color: #9d9898;
+}
+.content1_1Text3{
+  font-size: 30rpx;
+  margin-left: 90rpx;
+}
+.content1_2{
+  width: 190rpx;
+  height: 60rpx;
+  background-image: url('http://source.apichiyu.xyz/jiazheng/bg1.png');
+  background-repeat: no-repeat;
+  background-size: 95%;
+  float: right;
+  margin-right: 10rpx;
+  margin-top: 80rpx;
+  color: #fff;
+  font-size: 28rpx;text-align: center;
+  line-height: 52rpx;
+}

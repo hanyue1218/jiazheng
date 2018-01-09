@@ -1,0 +1,47 @@
+/* pages/bianjidizhi/index.wxss */
+.content1{  
+  width: 100%;
+  height: 202rpx;
+  background-color: #fff;
+  border-bottom: 20rpx solid #eae6e6;
+}
+.content1_1{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #dedede;
+}
+.content1_1 text{
+  width: 120rpx;
+  font-size: 30rpx;
+  float: left;
+  line-height: 100rpx;
+  margin-left: 35rpx;
+}
+.content1_1 input{
+  font-size: 30rpx;
+  color: #97989d;
+  margin-left: 40rpx;
+  display: inline-block;
+  margin-top: 25rpx;
+}
+.content2{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15rpx;
+}
+.content1_1 image{
+  width: 25rpx;
+  float: right;
+  margin-top: 22rpx;
+  margin-right: 30rpx;
+}
+.content3{
+  width: 80%;
+  margin-left: 10%;
+  height: 80rpx;
+  background-color: #19ad17;
+  margin-top: 100rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+}

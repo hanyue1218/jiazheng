@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class='banner'>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='content1' bindtap='toXiangqing'> 
+  <view class='content1_1'>
+  <view class='content1_1_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content1_1Text1'>
+      保洁
+    </text>
+    <text class='content1_1Text2'>高品质保洁服务，省心舒适畅享生活</text>
+    <view class='content1_1Text3'>
+    品质保障
+    </view>
+    </view>
+  </view>
+  </view>
+</view>

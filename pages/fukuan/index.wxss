@@ -1,0 +1,171 @@
+/* pages/fukuan/index.wxss */
+.content1bg{
+  width: 100%;
+  height: 100rpx;
+}
+.content1{
+  width: 600rpx;
+  height: 60rpx;
+  margin-left: 75rpx;
+  display: inline-block;
+  margin-top: 70rpx;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content1TText1{
+  font-size: 28rpx;
+  width: 88%;
+  margin-left: 6%;
+  text-align: center;
+  margin-top: 60rpx;
+}
+.content1TText2{
+  font-size: 28rpx;
+  width: 40%;
+  text-align:right;
+  margin-top: 20rpx;
+  float: left;
+}
+.content1TText3{
+  font-size: 28rpx;
+  width: 40%;
+  text-align:left;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  float: left;
+}
+
+.Img1{
+  width: 150%;
+}
+.content2{
+  width: 100%;
+}
+.content2_1{
+  width: 100%;
+  text-align: center;
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  font-family: '黑体';
+}
+.content3{
+  width: 100%;
+  height: 300rpx;
+  margin-top: 40rpx;
+  border: 1rpx solid #dedede;
+  background-color: #fff;
+}
+.content3_1{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #dedede; 
+}
+.content3_1 text{
+  color: #e12f25;
+  font-size: 28rpx;
+  float: left;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+}
+.content3_2{
+  width: 90%;
+  height: 250rpx;
+  margin-left: 5%;
+}
+.content3_2_1 image{
+  width: 150rpx;
+  margin-top: 25rpx;
+  float: left;
+}
+.Text{
+  width: 410rpx;
+  height: 250rpx;
+  float: right;
+  margin-right: 80rpx;
+}
+.content3_2Text1{
+  font-size: 30rpx;
+  display: inline-block;
+  line-height: 55rpx;
+
+}
+.content3_2Text2{
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+.content4{
+  margin-top: 40rpx;
+  width: 100%;
+  height: 70rpx;
+  border-bottom: 1rpx solid #dedede;
+  border-top: 1rpx solid #dedede;
+}
+.contetn4_1{
+  float: left;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.contetn4_2 image{
+  width: 25rpx;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 18rpx;
+}
+.content5{
+  margin-top: 15rpx;
+  width: 100%;
+  height: 70rpx;
+  border-bottom: 1rpx solid #dedede;
+  border-top: 1rpx solid #dedede;
+}
+.contetn5_1{
+  float: left;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.contetn5_2 image{
+  width: 25rpx;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 18rpx;
+}
+.kongbai1{
+  width: 100%;
+  height: 140rpx;
+}
+.viewFooter{
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  border-top: 1px solid #dedede;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.heji{
+  width:540rpx;
+  height: 90rpx;
+  float: left;
+  font-size: 35rpx;
+}
+.heji text{
+  float: right;
+  line-height: 90rpx;
+}
+.fukuan{
+  width: 150rpx;
+  height: 70rpx;
+  background-color: #df2e24;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 70rpx;
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+<!--pages/yuyue/index.wxml-->
+<view class='content1bg'>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  <view class='content1'><text decode='true'>{{array[index]}}</text></view>
+  </picker>
+</view>
+<image src='/pages/images/tiao.png' mode='widthFix' class='Img1'></image>
+<view class='content2'>
+  <view class='content2_1'>商品详情</view>
+</view>
+<view class='content3'> 
+    <view class='content3_1' >
+      <view>
+      <text>保洁</text>
+      </view>
+    </view>
+  <view class='content3_2'>
+  <view class='content3_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content3_2Text1'>
+      商品名称：
+    </text>
+    <text class='content3_2Text2'>家政服务家政服务家政服务家政服务家政服务家政</text>
+    </view>
+  </view>
+  </view>
+</view>
+<view class='content3'> 
+    <view class='content3_1' >
+      <view>
+      <text>保洁</text>
+      </view>
+    </view>
+  <view class='content3_2'>
+  <view class='content3_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content3_2Text1'>
+      商品名称：
+    </text>
+    <text class='content3_2Text2'>家政服务家政服务家政服务家政服务家政服务家政</text>
+    </view>
+  </view>
+  </view>
+</view>
+<view class='content3'> 
+    <view class='content3_1' >
+      <view>
+      <text>保洁</text>
+      </view>
+    </view>
+  <view class='content3_2'>
+  <view class='content3_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content3_2Text1'>
+      商品名称：
+    </text>
+    <text class='content3_2Text2'>家政服务家政服务家政服务家政服务家政服务家政</text>
+    </view>
+  </view>
+  </view>
+</view>
+<view class='kongbai1'></view>
+<view class='kongbai2'></view>
+<view class='viewFooter'>
+  <view class='yuyue' bindtap='toYuyue'>确认预约</view>
+</view>
+

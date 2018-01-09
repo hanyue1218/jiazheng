@@ -1,0 +1,77 @@
+/* pages/zhongxin/index.wxss */
+.viewTop{
+  width: 100%;
+  height: 350rpx;
+  background-color: #df2e24;
+}
+.button1{
+  margin-left: 400rpx;
+}
+.container{
+  width: 100%;
+  height: 580rpx;
+  margin-top: -90rpx;
+  margin-left: -200rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -10rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  margin-left: 40rpx;
+  font-size: 50rpx;
+}
+.content1,.content2{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1px solid #dedede;
+}
+.content1_1,.content2_1{
+  width: 50%;
+  float: left;
+  margin-left: 30rpx;
+}
+.content1_1 text,.content2_1 text{
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+.content1_2{
+  width: 20%;
+  float: right;
+  margin-right: 30rpx;
+}
+.content1_2 text{
+  color: #e12f25;
+  font-size: 25rpx;
+  line-height: 80rpx;
+}
+.content1_2 image{
+  width: 35rpx;
+  float: right;
+  margin-top: 22.5rpx;
+}
+.content2_2{
+  width: 8%;
+  float: right;
+  }
+.content2_2 image{
+  width: 23rpx;
+  margin-top: 25rpx;
+}
+.jishu{
+  width: 410rpx;
+  color: #aaa;
+  font-size: 25rpx;
+  margin-top: 380rpx;
+  margin-left: 170rpx;
+}

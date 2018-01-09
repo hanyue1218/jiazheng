@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index",
+    "pages/about/index",
+    "pages/zhongxin/index",
+    "pages/dingdan/index",
+    "pages/myCoupon/index",
+    "pages/membershipCard/index",
+    "pages/receiveCoupons/index",
+    "pages/address/index",
+    "pages/daifukuan/index",
+    "pages/yifukuan/index",
+    "pages/finish/index",
+    "pages/zengjiadizhi/index",
+    "pages/bianjidizhi/index",
+    "pages/shop/index",
+    "pages/yuyue/index",
+    "pages/xiangqing/index",
+    "pages/huodong/index",
+    "pages/fukuan/index",
+    "pages/weishiyong/index",
+    "pages/yishiyong/index",
+    "pages/yishixiao/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "家政服务"
+  },
+  "tabBar": {
+    "list": [
+      { 
+        "iconPath": "/pages/images/shouye1.png",
+        "selectedIconPath": "/pages/images/shouye2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/pages/images/shopcar1.png",
+        "selectedIconPath": "/pages/images/shopcar2.png",
+        "pagePath": "pages/shop/index",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "/pages/images/zhongxin1.png",
+        "selectedIconPath": "/pages/images/zhongxin2.png",
+        "pagePath":"pages/zhongxin/index",
+        "text":"个人中心"
+      },
+      {
+        "iconPath": "/pages/images/about1.png",
+        "selectedIconPath": "/pages/images/about2.png",
+        "pagePath": "pages/about/index",
+        "text": "关于我们"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,47 @@
+<!--pages/fukuan/index.wxml-->
+<view class='content1bg'>
+  <view class='content1TText1'>河北省石家庄市珠峰大街288号合适的恢复速度回我</view>
+  <view class='content1TText2'>张三</view>
+  <view class='content1TText3'>18236598765</view>
+</view>
+<image src='/pages/images/tiao.png' mode='widthFix' class='Img1'></image>
+<view class='content2'>
+  <view class='content2_1'>商品详情</view>
+</view>
+<view class='content3'> 
+    <view class='content3_1' >
+      <view>
+      <text>保洁</text>
+      </view>
+    </view>
+  <view class='content3_2'>
+  <view class='content3_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content3_2Text1'>
+      商品名称：
+    </text>
+    <text class='content3_2Text2'>家政服务家政服务家政服务家政服务家政服务家政</text>
+    </view>
+  </view>
+  </view>
+</view>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<view class='content4'>
+  <view class='contetn4_1'><text>{{array[index]}}</text></view>
+  <view class='contetn4_2'><image src='/pages/images/jiaobiao2.png' mode='widthFix'></image></view>
+</view>
+</picker>
+<picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
+<view class='content5'>
+  <view class='contetn5_1'><text>{{array1[index1]}}</text></view>
+  <view class='contetn5_2'><image src='/pages/images/jiaobiao2.png' mode='widthFix'></image></view>
+</view>
+</picker>
+
+<view class='kongbai1'></view>
+<view class='kongbai2'></view>
+<view class='viewFooter'>
+  <view class='heji'><text>合计：￥100元</text></view>
+  <view class='fukuan'>立即付款</view>
+</view>

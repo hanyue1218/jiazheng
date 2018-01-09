@@ -1,0 +1,78 @@
+<!--pages/yifukuan/index.wxml-->
+<view class='viewTop'>
+  <view class='viewTop1'>
+      <view class='viewTop1_1' bindtap='toDaifukuan'>
+        <text>待付款</text>
+      </view>
+      <view class='viewTop1_1' bindtap='toYifukuan'>
+        <text class='text1'>已付款</text>
+      </view>
+      <view class='viewTop1_1' bindtap='toFinish'>
+        <text>已完成</text>
+      </view>
+  </view>
+</view>
+<view class='content1'>
+  <view class='content1_1'>
+    <text>已支付</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+  <view class='content1_2'>
+  <view class='content1_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content1_2Text1'>
+      商品详情：
+    </text>
+    <text class='content1_2Text2'>家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务</text>
+    </view>
+  </view>
+  </view>
+  <view class='content1_3'>
+    <text>合计：¥550.00</text>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content1_1'>
+    <text>已支付</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+  <view class='content1_2'>
+  <view class='content1_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content1_2Text1'>
+      商品详情：
+    </text>
+    <text class='content1_2Text2'>家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务</text>
+    </view>
+  </view>
+  </view>
+  <view class='content1_3'>
+    <text>合计：¥550.00</text>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content1_1'>
+    <text>已支付</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+  <view class='content1_2'>
+  <view class='content1_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content1_2Text1'>
+      商品详情：
+    </text>
+    <text class='content1_2Text2'>家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务家政服务</text>
+    </view>
+  </view>
+  </view>
+  <view class='content1_3'>
+    <text>合计：¥550.00</text>
+  </view>
+</view>
+
+
+
+

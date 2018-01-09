@@ -1,0 +1,28 @@
+<!--pages/zengjiadizhi/index.wxml-->
+<view class='content1'>
+  <view class='content1_1'>
+    <text>收货人</text>
+    <input type='text' value='请输入收货人真实姓名'></input>
+  </view>
+  <view class='content1_1'>
+    <text>手机号</text>
+    <input type='text' value='请输入收货人手机号'></input>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content1_1'>
+    <text>所在地区</text>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <input type='text' value='{{region[0]}}，{{region[1]}}，{{region[2]}}'></input>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </picker>
+  </view>
+  <view class='content1_1'>
+    <text>详细地址</text>
+    <input type='text' value='请输入收货人详细地址'></input>
+  </view>
+</view>
+<view class='content3'>
+  保存
+</view>
+

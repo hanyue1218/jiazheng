@@ -1,0 +1,34 @@
+<!--pages/shop/index.wxml-->
+<view class='viewTop'>我的购物车</view>
+
+<view class='content1'  wx:for="{{carts}}"> 
+    <view class='content1_1' >
+      <icon wx:if="{{item.selected}}" type="success" color="red" bindtap="selectList" data-index="{{index}}" />
+      <icon wx:else type="circle" bindtap="selectList" data-index="{{index}}"/>
+      <view style='float:left'>
+      <text>{{item.title1}}</text>
+      </view>
+      <view class='delete'>
+      <image src='/pages/images/delete.png' mode='widthFix' bindtap="deleteList" data-index="{{index}}"></image>
+      </view>
+    </view>
+  <view class='content1_2'>
+  <view class='content1_2_1'>
+    <image src='/pages/images/dingdan.png' mode='widthFix'></image>
+    <view class='Text'>
+    <text class='content1_2Text1'>
+      商品名称：
+    </text>
+    <text class='content1_2Text2'>{{item.title2}}</text>
+    </view>
+  </view>
+  </view>
+</view>
+<view class='kongbai1'></view>
+<view class='kongbai2'></view>
+<view class='viewFooter'>
+  <icon wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll"/>
+  <icon wx:else type="circle" bindtap="selectAll"/>
+  <text class='footerText'>全选</text>
+  <view class='yuyue' bindtap='toYuyue'>立即预约</view>
+</view>

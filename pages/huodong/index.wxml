@@ -1,0 +1,14 @@
+<!--pages/huodong/index.wxml-->
+<view class='viewTop'>最新活动</view>
+<view class='content1'>
+  <view class='content1_1'>活动名称</view>
+  <view class='content1_2'>活动内容活动内容活动内容活动内容活动内容活动内容活动内
+  </view>
+  <view class='content1_3'>2018.01.01——2018.12.31</view>
+</view>
+<view class='viewTop1'>往期活动</view>
+<view class='content2'>
+  <view class='content2_1'>活动名称</view>
+  <view class='content2_2'>活动内容活动内容活动内容活动内容活动内容</view>
+  <view class='content2_3'>2017.01.01——2018.01.01</view>
+</view>

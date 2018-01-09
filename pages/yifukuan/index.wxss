@@ -1,0 +1,94 @@
+/* pages/yifukuan/index.wxss */
+.viewTop{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1px solid #dedede;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.viewTop1{
+  display: flex;
+  text-align: center;
+}
+.viewTop1{
+  display: flex;
+  text-align: center;
+}
+.viewTop1_1{
+  width: 250rpx;
+}
+.viewTop1_1 text{
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.text1{
+  border-bottom: 5rpx solid red;
+  padding-bottom: 10rpx;
+}
+.content1{
+  width: 100%;
+  height: 430rpx;
+  margin-top: 100rpx;
+  border: 1rpx solid #dedede;
+}
+.content2{
+  width: 100%;
+  height: 430rpx;
+  margin-top: 30rpx;
+  border: 1rpx solid #dedede;
+}
+.content1_1{
+  width: 100%;
+  height: 60rpx;
+  border-bottom: 1rpx solid #dedede; 
+}
+.content1_1 text{
+  color: #e12f25;
+  font-size: 28rpx;
+  float: left;
+  line-height: 60rpx;
+  margin-left: 5%;
+}
+.content1_1 image{
+  width: 20rpx;
+  float: right;
+  margin-top: 10rpx;
+  margin-right: 5%;
+}
+.content1_2{
+  width: 90%;
+  height: 300rpx;
+  margin-left: 5%;
+}
+.content1_2_1 image{
+  width: 250rpx;
+  margin-top: 25rpx;
+  float: left;
+}
+.Text{
+  width: 400rpx;
+  float: right;
+}
+.content1_2Text1{
+  font-size: 30rpx;
+  display: inline-block;
+  margin-top: -20rpx;
+}
+.content1_2Text2{
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+.content1_3{
+  width: 100%;
+  padding-bottom: 10rpx;
+}
+.content1_3 text{
+  font-size: 32rpx;
+  font-family: '黑体';
+  float: right;
+  margin-right: 80rpx;
+  line-height: 60rpx;
+}
